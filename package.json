@@ -1,24 +1,44 @@
 {
   "name": "x-creatify",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "node server.js"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0",
     "lucide-react": "^0.263.1",
-    "recharts": "^2.8.0"
+    "recharts": "^2.8.0",
+    "@supabase/supabase-js": "^2.38.0",
+    "openai": "^4.20.0",
+    "@stripe/stripe-js": "^2.1.0",
+    "@stripe/react-stripe-js": "^2.3.0",
+    "axios": "^1.5.0",
+    "react-query": "^3.39.3",
+    "react-hook-form": "^7.45.4",
+    "react-hot-toast": "^2.4.1",
+    "framer-motion": "^10.16.4",
+    "date-fns": "^2.30.0",
+    "uuid": "^9.0.0",
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "stripe": "^13.6.0",
+    "twitter-api-v2": "^1.15.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.2.1",
     "vite": "^5.4.1",
     "tailwindcss": "^3.4.11",
     "postcss": "^8.4.0",
-    "autoprefixer": "^10.4.0"
+    "autoprefixer": "^10.4.0",
+    "@types/uuid": "^9.0.4",
+    "nodemon": "^3.0.1"
   }
 }
